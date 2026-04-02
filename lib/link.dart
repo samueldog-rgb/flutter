@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class Tela2 extends StatelessWidget {
+class MyLink extends StatelessWidget {
   String url_imagem;
   String nome_rede;
   String link;
-  Tela2({super.key, required this. url_imagem, required this.nome_rede , required this.link});
+  MyLink({super.key, required this. url_imagem, required this.nome_rede , required this.link});
   
 
   @override
